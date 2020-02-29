@@ -47,6 +47,15 @@ foreach($arreglo as $clave=>$valor){
 
 echo("<br>......................................................................<br>");
 
+//Arreglos Multidimensionales(arreglo de arreglos)
+$usuarios=array(
+    'usuario1'=>array('nombre'=>"Juan",'edad'=>"30",'sexo'=>"M"),
+    'usuario2'=>array('nombre'=>"Maria",'edad'=>"28",'sexo'=>"F"),
+    'usuario3'=>array('nombre'=>"James",'edad'=>"32",'sexo'=>"M"),
+    'usuario4'=>array('nombre'=>"Sandra",'edad'=>"27",'sexo'=>"F")
+);
+
+
 
 
 
