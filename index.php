@@ -87,7 +87,7 @@ echo("<br>......................................................................
 calcularEdad1(1995,2020);
 
 
-$edad3=calcularEdad3(1900,2020);
+$edad3=calcularEdad1(1900,2020);
 echo("<br>......................................................................<br>");
 echo("La edad de la persona es: ".$edad3);
 
@@ -96,8 +96,8 @@ echo("<br>......................................................................
 $edades=array('edad1'=> calcularEdad3(1990,2020),'edad2'=> calcularEdad3(1992,2020));
 print_r($edades);
 
+echo"hola";
 
-echo("hola");
 
 
 ?>
